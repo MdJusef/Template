@@ -22,7 +22,206 @@
     height:auto;
     padding-left: 20px;
 }
+.header .menu-ber{*{ /*universal selectro use for all html code design*/
+    margin: 0;
+    padding: 0;
+}
+.bottom-space{}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+    display: block;
+    font-family: 'Raleway';   
+}
+/*Design Head*/
+.header{
+    display: flex;
+    /*background: rgb(221, 216, 216);*/
+
+    
+}
+.logo{}
+.logo img{
+    width: 50%;
+    height:auto;
+    padding-left: 20px;
+}
 .header .menu-ber{
+    width: 100%;
+}
+.menu-ber ul{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    height: 100%;   
+}
+.header .menu-ber ul li{
+}
+.header .menu-ber ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 17px 35px;
+}
+.header .menu-ber ul li a:hover{
+    background-color:black;
+    color: white;
+}
+/* #banner part design */
+.banner img{
+    margin-top: 50px;
+    width: 1170px;
+    margin-bottom: 50px;
+    height: 480px;
+}
+
+/*design after banner two blog */
+.wrapper .blogger{
+    display: flex;
+    width: 100%;
+}
+.wrapper .blogger .first-blog{
+    width: 50%;
+    border: 1px solid gray;
+    height: 300px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    height: auto;
+}
+.wrapper .blogger img{
+    width: 100%;
+    height:220px;
+}
+.wrapper .blogger h1{
+    margin: 10px 10px;
+    text-align: left;
+}
+.wrapper .blogger a{
+    text-decoration: none;
+    font-size:18px;
+    color:black;
+}
+.wrapper .blogger a:hover{
+    color: blue;
+}
+
+.wrapper .blogger .second-blog{
+    width: 50%;
+    height: 300px;
+    border: 1px solid gray;
+    margin: 0px 5px;
+    border-radius: 5px;
+    height: auto;
+
+}
+.wrapper .blogger .second-blog img{}
+.wrapper .blogger .second-blog p{}
+
+/*End blog news design*/
+
+
+.header1 h1{
+    text-align: center;
+    width: 100%;
+    padding-bottom:10px;
+}
+.OurTeam{
+    display : flex;
+    padding-bottom: 10px;
+}
+/*SingleMember */
+.OurTeam .SingleMember{
+width: 379px;
+height:377px;
+margin-left: 10px;
+border: 1px solid gray;
+background-color: rgb(221, 216, 216);
+position: relative;
+overflow: hidden;
+}
+.OurTeam .SingleMember img{
+    width: 110px;
+    height: 110px;
+    border-radius:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;  
+}
+.OurTeam .SingleMember:hover img{
+    width: 379px;
+    height: 377px;
+    border-radius: 0%;  
+}
+.OurTeam .SingleMember h1{
+    padding-top: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.OurTeam .SingleMember h2{
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 0;
+}
+.OurTeam .SingleMember p{
+    text-align: justify;
+    padding:5px 5px;
+}
+.HireMe button{
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-sizing: 20px;
+}
+.contact-map-wrapper{
+    background-color: rgb(221, 216, 216);    
+}
+.footer-heading{
+    text-align: center;
+    padding:50px 0px;
+}
+.footer-heading h1{
+    padding-bottom:5px;
+}
+.footer-heading p{}
+
+.contact-map{
+    display: flex;
+    width: 1170px;   
+}
+.contact-map .contact-list{
+    width: 40%;
+    display: block;   
+}
+.contact-map .contact-list input{
+    background-color: white;
+    width: 100%;
+    margin: 0px 0px 15px 15px;
+    padding: 5px 15px;
+}
+textarea{
+    background-color: white;
+    width: 100%;
+    margin: 0px 0px 15px 15px;
+    padding: 5px 15px;
+}
+button{
+    background-color: white;
+    margin: 0px 0px 15px 15px;
+    padding: 5px 15px;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+.map{
+    width: 60%;
+    margin-left: 90px;
+    margin-bottom: 100px;
+}
+
     width: 100%;
 }
 .menu-ber ul{
